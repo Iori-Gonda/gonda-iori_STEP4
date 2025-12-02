@@ -1,0 +1,14 @@
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error_message {
+    color: #d00;
+    font-size: 14px;
+    margin-top: 10px;
+}
