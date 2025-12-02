@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error-message {
+    color: #d00;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 196, 203, 0.4);
+    border-left: 4px solid #d00;
+}
+
+.back-button {
+    cursor: pointer;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
