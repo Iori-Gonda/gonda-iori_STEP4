@@ -20,7 +20,7 @@
 
         //バリデーション
         //名前
-        if(!preg_match("/^[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}a-zA-Z\s]+$/u", $name)) {
+        if(!preg_match("/^[ぁ-んア-ヶー-龠a-zA-Z\s]+$/u", $name)) {
             echo '<div class="error-message">';
             echo "<p>名前はひらがな、カタカナ、漢字、英字のみ使用できます。</p>";
             echo '</div>';
@@ -40,7 +40,7 @@
             echo "<p>メールアドレスの形式が正しくありません。</p>";
             echo '</div>';
         //住所
-        } elseif (!preg_match("/^[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}]+$/u", $address)) {
+        } elseif (!preg_match("/^[ぁ-んア-ヶー-龠a-zA-Z\s]+$/u", $address)) {
             echo '<div class="error-message">';
             echo "<p>住所はひらがな、カタカナ、漢字、英字のみ使用できます。</p>";
             echo '</div>';
